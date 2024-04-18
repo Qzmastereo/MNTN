@@ -56,8 +56,8 @@ h6 {
     color: #FFFFFF;
 }
 .header{
-    background-image: url(img/Group.png);
-    background-size: cover;
+    background-image: url(img/BG.png);
+    background-size: 1920px 2300px;
     background-position: center;
     background-repeat: no-repeat;
     height: 1200px;
@@ -94,4 +94,20 @@ h6 {
    flex-direction: column;
    width: 950px;
    margin-right: 470px;
+}
+.main{
+    width: 1462px;
+   
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+img {
+    max-width: 50%;
 }
